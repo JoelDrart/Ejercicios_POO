@@ -4,13 +4,21 @@
 #include "Reloj.h"
 #include "Fecha.h"
 #include "Empleado.h"
+#include "Barco.h"
+#include "Alquiler.h"
+#include "stdlib.h"
 
 //Elaborar una clase RACIONAL que modele los números racionales implementando al menos las operaciones de suma,
 // resta, opuesto e inverso de un número racional a imitación de la suma o resta de los números
 //reales o enteros.
 
 int main() {
+    Alquiler alquiler("Erick","0650128846",15,2,2022,28,2,2022,21);
 
+    alquiler.mostrarFactura();
+
+    system("pause");
+    std::cout<<"---------------------------"<<std::endl;
     std::cout<<"EMPLEADO TEMPORAL:\n";
     E_Temporal eTemporal("Luis", 25, "8562", 562.8f ,15,3,2023,26,3,2024);
     eTemporal.mostrarEmpleado();

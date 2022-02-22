@@ -85,6 +85,18 @@ build CMakeFiles/EJ_POO.dir/Empleado.cpp.obj: CXX_COMPILER__EJ_POO_Debug F$:/ARC
   OBJECT_DIR = CMakeFiles\EJ_POO.dir
   OBJECT_FILE_DIR = CMakeFiles\EJ_POO.dir
 
+build CMakeFiles/EJ_POO.dir/Barco.cpp.obj: CXX_COMPILER__EJ_POO_Debug F$:/ARCHIVOS/PROYECTOSPROGRAMACIÓN/C++/EJ_POO/Barco.cpp || cmake_object_order_depends_target_EJ_POO
+  DEP_FILE = CMakeFiles\EJ_POO.dir\Barco.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\EJ_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\EJ_POO.dir
+
+build CMakeFiles/EJ_POO.dir/Alquiler.cpp.obj: CXX_COMPILER__EJ_POO_Debug F$:/ARCHIVOS/PROYECTOSPROGRAMACIÓN/C++/EJ_POO/Alquiler.cpp || cmake_object_order_depends_target_EJ_POO
+  DEP_FILE = CMakeFiles\EJ_POO.dir\Alquiler.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\EJ_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\EJ_POO.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target EJ_POO
@@ -93,7 +105,7 @@ build CMakeFiles/EJ_POO.dir/Empleado.cpp.obj: CXX_COMPILER__EJ_POO_Debug F$:/ARC
 #############################################
 # Link the executable EJ_POO.exe
 
-build EJ_POO.exe: CXX_EXECUTABLE_LINKER__EJ_POO_Debug CMakeFiles/EJ_POO.dir/main.cpp.obj CMakeFiles/EJ_POO.dir/Racional.cpp.obj CMakeFiles/EJ_POO.dir/Polinomios.cpp.obj CMakeFiles/EJ_POO.dir/Reloj.cpp.obj CMakeFiles/EJ_POO.dir/Fecha.cpp.obj CMakeFiles/EJ_POO.dir/Empleado.cpp.obj
+build EJ_POO.exe: CXX_EXECUTABLE_LINKER__EJ_POO_Debug CMakeFiles/EJ_POO.dir/main.cpp.obj CMakeFiles/EJ_POO.dir/Racional.cpp.obj CMakeFiles/EJ_POO.dir/Polinomios.cpp.obj CMakeFiles/EJ_POO.dir/Reloj.cpp.obj CMakeFiles/EJ_POO.dir/Fecha.cpp.obj CMakeFiles/EJ_POO.dir/Empleado.cpp.obj CMakeFiles/EJ_POO.dir/Barco.cpp.obj CMakeFiles/EJ_POO.dir/Alquiler.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EJ_POO.dir

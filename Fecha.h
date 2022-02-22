@@ -8,6 +8,8 @@
 //Nota 3: El ejercicio es mucho más divertido si no se utiliza la clase TIME de la biblioteca estandar de
 //SmallEiffel
 
+
+//TODO: SOBRECARGA - Para que cuando se resten dos objetos fechas me devuelva la diferencia de dias o tambien podria crear funciones
 #ifndef EJ_POO_FECHA_H
 #define EJ_POO_FECHA_H
 #include "iostream"
@@ -27,6 +29,12 @@ public:
     void setMes(int mes);
 
     void setAnio(int anio);
+
+    int getDia() const;
+
+    int getMes() const;
+
+    int getAnio() const;
 
     std::string imprimirFechaNum();
     std::string imprimirFechaLit();

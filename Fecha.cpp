@@ -172,4 +172,16 @@ void Fecha::setAnio(int anio) {
     _anio = anio;
 }
 
+int Fecha::getDia() const {
+    return _dia;
+}
+
+int Fecha::getMes() const {
+    return _mes;
+}
+
+int Fecha::getAnio() const {
+    return _anio;
+}
+
 
