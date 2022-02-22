@@ -1,6 +1,11 @@
 #include "Fecha.h"
 #include "string"
 
+Fecha::Fecha() {
+
+}
+
+
 Fecha::Fecha(int dia, int mes, int anio) {
 
     _anio= abs(anio);
@@ -154,3 +159,17 @@ bool Fecha::esBisiesto() const {
         return false;
     }
 }
+
+void Fecha::setDia(int dia) {
+    _dia = dia;
+}
+
+void Fecha::setMes(int mes) {
+    _mes = mes;
+}
+
+void Fecha::setAnio(int anio) {
+    _anio = anio;
+}
+
+

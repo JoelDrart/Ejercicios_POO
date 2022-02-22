@@ -3,12 +3,33 @@
 #include "Polinomios.h"
 #include "Reloj.h"
 #include "Fecha.h"
+#include "Empleado.h"
 
 //Elaborar una clase RACIONAL que modele los números racionales implementando al menos las operaciones de suma,
 // resta, opuesto e inverso de un número racional a imitación de la suma o resta de los números
 //reales o enteros.
 
 int main() {
+
+    std::cout<<"EMPLEADO TEMPORAL:\n";
+    E_Temporal eTemporal("Luis", 25, "8562", 562.8f ,15,3,2023,26,3,2024);
+    eTemporal.mostrarEmpleado();
+    std::cout<<"\n";
+
+
+    std::cout<<"EMPLEADO POR HORAS:\n";
+    E_Horas eHoras("Pablo",29,"8426",16.2f,85);
+    eHoras.mostrarEmpleado();
+    std::cout<<"\n";
+
+    std::cout<<"EMPLEADO FIJO:\n";
+    E_Fijo eFijo("Juan",50,"2510",1250.8f,2026);
+    eFijo.mostrarEmpleado();
+    std::cout<<"\n";
+
+
+
+    std::cout<<"---------------------------"<<std::endl;
 
     Fecha fecha(33,4,2001);
     std::cout<<fecha.imprimirFechaLit()<<std::endl;

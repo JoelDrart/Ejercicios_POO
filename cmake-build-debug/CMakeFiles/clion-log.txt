@@ -1,4 +1,4 @@
-F:\JetBrains\Toolbox\apps\CLion\ch-0\213.6461.46\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=F:/JetBrains/Toolbox/apps/CLion/ch-0/213.6461.46/bin/ninja/win/ninja.exe -G Ninja F:\ARCHIVOS\PROYECTOSPROGRAMACIÓN\C++\EJ_POO
+F:\JetBrains\Toolbox\apps\CLion\ch-0\213.6777.58\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=F:/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/bin/ninja/win/ninja.exe -G Ninja F:\ARCHIVOS\PROYECTOSPROGRAMACIÓN\C++\EJ_POO
 -- Configuring done
 -- Generating done
 -- Build files have been written to: F:/ARCHIVOS/PROYECTOSPROGRAMACIÓN/C++/EJ_POO/cmake-build-debug
