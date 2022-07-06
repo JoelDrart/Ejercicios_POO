@@ -7,12 +7,29 @@
 #include "Barco.h"
 #include "Alquiler.h"
 #include "stdlib.h"
+#include "Angulo.h"
 
 //Elaborar una clase RACIONAL que modele los números racionales implementando al menos las operaciones de suma,
 // resta, opuesto e inverso de un número racional a imitación de la suma o resta de los números
 //reales o enteros.
 
 int main() {
+    Angulo angulo0(0);
+    std::cout<<"Angulo: "<<angulo0<<std::endl;
+    angulo0 = opuesto(angulo0);
+    std::cout<<"Angulo opuesto: "<<angulo0<<std::endl;
+    std::cout<<"---------------------------"<<std::endl;
+    Angulo angulo1(360);
+
+    Angulo anguloOp;
+    std::cout<<"Angulo: "<<angulo1<<std::endl;
+    anguloOp = opuesto(angulo1);
+    std::cout<<"Angulo opuesto: "<<anguloOp<<std::endl;
+
+
+
+    std::cout<<"---------------------------"<<std::endl;
+
     Alquiler alquiler("Erick","0650128846",15,2,2022,28,2,2022,21);
 
     alquiler.mostrarFactura();

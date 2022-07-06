@@ -70,7 +70,7 @@ Alquiler::Alquiler(std::string nombre, std::string DNI, int dia_i, int mes_i, in
 
 void Alquiler::setValor() { //duracion * 10 * eslora * 9
     int duracion;
-    duracion = ((_final->getDia())-(_inicial->getDia()))+1;
+    duracion = Fecha::diferenciaDias(_inicial, _final) +1;
     duracion = 10 * duracion * (_barco->getEslora());
 
     _valor = duracion * 9;

@@ -31,7 +31,7 @@ public:
              int dia_i, int mes_i, int anio_i,
              int dia_f, int mes_f, int anio_f,
              int posicion
-             );
+    );
 
 
 

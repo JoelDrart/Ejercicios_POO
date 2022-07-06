@@ -16,9 +16,9 @@
 
 class Fecha {
 private:
-    int _dia=1;
-    int _mes=1;
-    int _anio=1988;
+    int _dia;
+    int _mes;
+    int _anio;
     void incrementa_un_dia();
 public:
     Fecha();
@@ -42,7 +42,7 @@ public:
     void incremento(int dias);
     bool esBisiesto() const;
 
-
+    static int diferenciaDias(Fecha* fecha1, Fecha* fecha2) ;
 
 };
 

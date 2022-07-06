@@ -2,7 +2,9 @@
 #include "string"
 
 Fecha::Fecha() {
-
+    _dia=1;
+    _mes=1;
+    _anio=1988;
 }
 
 
@@ -149,12 +151,13 @@ void Fecha::incrementa_un_dia() {
 
 bool Fecha::esBisiesto() const {
     if(_anio%4 ==0){
-        return true;
-        if(_anio%100 == 0){
+
+        if(_anio%100 == 0 ){
             if(_anio%400 != 0){
                 return false;
             }
         }
+        return true;
     } else{
         return false;
     }
@@ -182,6 +185,27 @@ int Fecha::getMes() const {
 
 int Fecha::getAnio() const {
     return _anio;
+}
+
+int Fecha::diferenciaDias(Fecha *fecha1, Fecha *fecha2) {
+    if((fecha2->_anio)<(fecha1->_anio)){
+        return 0;
+    }
+    else if((fecha2->_mes)<(fecha1->_mes)){
+        return 0;
+    }
+    else if((fecha2->_dia)<(fecha1->_dia)){
+        return 0;
+    }
+
+    int diferencia=0;
+
+    while(!((fecha1->_dia == fecha2->_dia)&&(fecha1->_mes == fecha2->_mes)&&(fecha2->_anio == fecha1->_anio))) {
+        fecha1->incrementa_un_dia();
+        diferencia++;
+    }
+
+    return diferencia;
 }
 
 
